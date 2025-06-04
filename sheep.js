@@ -1,6 +1,6 @@
 const sheep = [];
 
-const SHEEP_SIZE = 5;
+const SHEEP_SIZE = 25;
 
 class Sheep {
 
@@ -127,7 +127,7 @@ class Sheep {
 }
 
 function drawSheep() {
-  c.fillStyle = 'rgba(0, 0, 0, 0.1)';
+  c.fillStyle = 'rgba(0, 0, 0, 0.26)';
   c.beginPath();
   sheep.forEach(s => s.drawShadow(c));
   c.fill();
