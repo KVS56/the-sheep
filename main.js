@@ -34,7 +34,7 @@ function tick() {
   elems.sheepCount.textContent = actualSheep.length + ' sheep';
   elems.freeSheep.disabled = !actualSheep.length;
 }
-setInterval(tick, 1000);
+setInterval(tick, 10);
 
 const elems = {};
 function initElems() {
